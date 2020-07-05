@@ -7,9 +7,9 @@ using namespace std;
 /*
 enum PCState
 {
-	OFF,	//
-	ON,		// по сути это набор констант.
-	SLEEP	//
+	OFF,
+	ON,
+	SLEEP
 };
 */
 
