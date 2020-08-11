@@ -5,8 +5,8 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	//try ... catch
-	ifstream a;
-	a.exceptions(ifstream::badbit | ifstream::failbit);
+	std::ifstream a;
+	a.exceptions(std::ifstream::badbit | std::ifstream::failbit);
 	try
 	{
 		std::cout << "Trying to open a file\n";
